@@ -13,14 +13,15 @@ function App() {
        <h1>ubais</h1>
        <h1>aviv</h1>
        <h1>add</h1>
-       <p>helloo</p>
+       <p>hell</p>
        <h1>123</h1>
-       <h1>add one</h1>
+       <h1>adone</h1>
         <h1>add</h1>
-        <p>helloo</p>
+        <p>helo</p>
        <h1>12345</h1>
-       <h1>acodez</h1>
-       <h1>oodiko</h1>
+       <h1>acez</h1>
+       <h1>ooko</h1>
+       <h1>oo</h1>
        <h1></h1>
 
 
