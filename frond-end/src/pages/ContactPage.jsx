@@ -1,52 +1,46 @@
 import React from 'react'
 
 function ContactPage() {
-  return (
-   <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-6">
-<motion.div
-initial={{ opacity: 0, y: 20 }}
-animate={{ opacity: 1, y: 0 }}
-transition={{ duration: 0.6 }}
-className="w-full max-w-5xl grid md:grid-cols-2 gap-8"
->
-{/* Left info section */}
-<Card className="rounded-2xl shadow-lg">
-<CardContent className="p-8 space-y-6">
+return (
+<div className="min-h-screen  from-slate-50 to-slate-100 flex items-center justify-center p-6">
+<div className="w-full max-w-5xl grid md:grid-cols-2 gap-8">
+
+
+{/* Contact Info */}
+<div className="bg-white rounded-2xl shadow-lg p-8 space-y-6">
 <h2 className="text-3xl font-bold">Get in touch</h2>
-<p className="text-muted-foreground">
-Have a project in mind or just want to say hello? Fill out the form
-or reach me through the details below.
+<p className="text-gray-600">
+Have a project in mind or just want to say hello? Fill out the form or
+contact me directly.
 </p>
 
 
 <div className="space-y-4">
 <div className="flex items-center gap-3">
-<Mail className="w-5 h-5 text-primary" />
+<span className="font-semibold">Email:</span>
 <span>hello@example.com</span>
 </div>
 <div className="flex items-center gap-3">
-<Phone className="w-5 h-5 text-primary" />
-<span>+1 (234) 567‑890</span>
+<span className="font-semibold">Phone:</span>
+<span>+1 (234) 567-890</span>
 </div>
 <div className="flex items-center gap-3">
-<MapPin className="w-5 h-5 text-primary" />
+<span className="font-semibold">Location:</span>
 <span>Remote / Worldwide</span>
 </div>
 </div>
-</CardContent>
-</Card>
+</div>
 
 
-{/* Right form section */}
-<Card className="rounded-2xl shadow-lg">
-<CardContent className="p-8">
+{/* Contact Form */}
+<div className="bg-white rounded-2xl shadow-lg p-8">
 <form className="space-y-5">
 <div>
 <label className="block text-sm font-medium mb-1">Name</label>
 <input
 type="text"
 placeholder="Your name"
-className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
 />
 </div>
 
@@ -56,7 +50,7 @@ className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 fo
 <input
 type="email"
 placeholder="you@example.com"
-className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
+className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
 />
 </div>
 
@@ -66,18 +60,22 @@ className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 fo
 <textarea
 rows={4}
 placeholder="Tell me about your project..."
-className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary"
-/>
+className="w-full rounded-xl border px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black"
+></textarea>
 </div>
 
 
-<Button className="w-full rounded-xl text-base py-6">
+<button
+type="submit"
+className="w-full bg-black text-white rounded-xl py-3 text-base hover:bg-gray-800 transition"
+>
 Send Message
-</Button>
+</button>
 </form>
-</CardContent>
-</Card>
-</motion.div>
+</div>
+
+
+</div>
 </div>
 );
 }
