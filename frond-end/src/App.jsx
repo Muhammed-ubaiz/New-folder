@@ -5,15 +5,14 @@ import './App.css'
 import Login from './pages/login'
 import Home from './pages/Home'
 import ContactPage from './pages/ContactPage'
+import Layoutroutes from './Routes/Layoutroutes'
 
 function App() {
 
   return (
     <>
-       <Login/>
-       <Home/>
-       <ContactPage/>
-       </>
+      <Layoutroutes/>
+   </>
   )
 }
 
