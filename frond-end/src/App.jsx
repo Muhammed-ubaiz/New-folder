@@ -7,21 +7,17 @@ function App() {
 
   return (
     <>
-      <h1>fghjkl</h1>
-       <h1>fgtyguhijkohjkl</h1>
+       <h1>fghjkl</h1>
        <h1>navaneeth</h1>
        <h1>ansil</h1>
        <h1>ubais</h1>
        <h1>aviv</h1>
        <h1>add one</h1>
-
-       <p>helloo</p>
-
-
+        <h1>add</h1>
+        <p>helloo</p>
        <h1>12345</h1>
-
-
        <h1>acodez</h1>
+       <h1>oodiko</h1>
 
 
 
